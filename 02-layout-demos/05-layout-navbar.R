@@ -1,6 +1,8 @@
 library(shiny)
+library(shinythemes)
 
 ui <- navbarPage(
+  theme = shinytheme("superhero"),
   "Andrey's wonderful tabbed app",
 
   tabPanel(
